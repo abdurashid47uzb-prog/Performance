@@ -1,0 +1,665 @@
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .navbar {
+        gap: 35px;
+    }
+
+    .header-buttons {
+        gap: 25px;
+        margin-left: 20px;
+    }
+
+    .hero-container {
+        grid-template-columns: 48% 52%;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .dashboard {
+        left: 10px;
+        width: 650px;
+    }
+
+    .partners-container {
+        gap: 18px;
+    }
+
+    .products-list {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        height: 80px;
+    }
+
+    .header-container {
+        gap: 20px;
+    }
+
+    .navbar {
+        gap: 22px;
+    }
+
+    .header-buttons {
+        gap: 18px;
+        margin-left: 10px;
+    }
+
+    .hero {
+        background: linear-gradient(
+            180deg,
+            #f3f5f9 0%,
+            #ffffff 45%
+        );
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding-top: 25px;
+    }
+
+    .hero-content {
+        padding: 30px 0 35px;
+    }
+
+    .hero-content h1 {
+        max-width: 650px;
+        font-size: 38px;
+    }
+
+    .hero-content > p:not(.form-message) {
+        max-width: 520px;
+        margin-bottom: 30px;
+    }
+
+    .email-form {
+        max-width: 480px;
+    }
+
+    .hero-image {
+        height: 340px;
+        padding-top: 0;
+        overflow: hidden;
+    }
+
+    .dashboard {
+        top: 0;
+        left: 50%;
+        width: min(670px, 100%);
+        transform: translateX(-50%);
+    }
+
+    .partners {
+        padding-top: 25px;
+    }
+
+    .partners-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .products {
+        padding: 65px 0 50px;
+    }
+
+    .products-heading {
+        margin-bottom: 45px;
+    }
+
+    .products-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 45px 25px;
+    }
+
+    .product-card:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .thankyou {
+        min-height: 390px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .header {
+        height: 65px;
+    }
+
+    .header-container {
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .header-buttons {
+        margin-left: auto;
+        gap: 12px;
+    }
+
+    .signin {
+        font-size: 11px;
+    }
+
+    .signup {
+        min-width: 68px;
+        height: 33px;
+        font-size: 10px;
+    }
+
+    .menu-btn {
+        display: block;
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+
+    .hero-container {
+        padding-top: 15px;
+    }
+
+    .hero-content {
+        padding: 25px 0 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        line-height: 1.35;
+        letter-spacing: -0.5px;
+    }
+
+    .hero-content > p:not(.form-message) {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .hero-image {
+        height: 285px;
+    }
+
+    .dashboard {
+        width: 590px;
+        left: 50%;
+        transform: translateX(-50%) scale(0.92);
+        transform-origin: top center;
+    }
+
+    .dashboard-content {
+        padding: 18px 12px;
+    }
+
+    .partners-container {
+        gap: 12px;
+    }
+
+    .partner-card {
+        height: 70px;
+        padding: 10px 14px;
+    }
+
+    .products-heading h2 {
+        font-size: 22px;
+    }
+
+    .products-heading p {
+        font-size: 13px;
+    }
+
+    .products-list {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .product-card:last-child {
+        grid-column: auto;
+    }
+
+    .product-card > p {
+        max-width: 330px;
+        text-align: center;
+    }
+
+    .product-features {
+        gap: 10px 16px;
+    }
+
+    .products-bottom {
+        margin-top: 45px;
+    }
+
+    .project-inquiry {
+        min-height: 190px;
+    }
+
+    .project-inquiry a {
+        font-size: 17px;
+    }
+
+    .thankyou {
+        min-height: 380px;
+        padding: 35px 20px;
+    }
+
+    .thankyou-card {
+        max-width: 405px;
+        min-height: 280px;
+        padding: 55px 20px 20px;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .header {
+        height: 58px;
+    }
+
+    .header-container {
+        gap: 8px;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .header-buttons {
+        gap: 10px;
+    }
+
+    .signin {
+        font-size: 10px;
+    }
+
+    .signup {
+        min-width: 58px;
+        height: 30px;
+        border-radius: 6px;
+        font-size: 9px;
+    }
+
+    .menu-btn {
+        padding: 7px 8px;
+        font-size: 10px;
+    }
+
+    .hero-container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .hero-content {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .hero-content h1 {
+        font-size: 26px;
+        line-height: 1.4;
+        margin-bottom: 18px;
+    }
+
+    .hero-content > p:not(.form-message) {
+        font-size: 14px;
+        line-height: 1.55;
+        margin-bottom: 25px;
+    }
+
+    .email-form {
+        flex-direction: column;
+        gap: 12px;
+        overflow: visible;
+        background: transparent;
+    }
+
+    .email-input {
+        width: 100%;
+        min-height: 48px;
+        background-color: #f4f7f9;
+        border-radius: 8px;
+    }
+
+    .email-input input {
+        height: 48px;
+        padding: 0 14px;
+        font-size: 12px;
+    }
+
+    .email-form button {
+        width: 100%;
+        min-height: 48px;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+
+    .hero-image {
+        height: 225px;
+        margin-top: 5px;
+    }
+
+    .dashboard {
+        top: 0;
+        width: 590px;
+        left: 50%;
+        transform: translateX(-50%) scale(0.70);
+        transform-origin: top center;
+    }
+
+    .partners {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .partners-container {
+        gap: 10px;
+    }
+
+    .partner-card {
+        height: 62px;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    .products {
+        padding: 50px 0 40px;
+    }
+
+    .products-heading {
+        margin-bottom: 42px;
+    }
+
+    .products-heading h2 {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+
+    .products-heading p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .products-list {
+        gap: 55px;
+    }
+
+    .product-label {
+        margin-bottom: 12px;
+    }
+
+    .product-card h3 {
+        font-size: 17px;
+    }
+
+    .product-card > p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .product-features {
+        gap: 10px 12px;
+        margin-bottom: 23px;
+    }
+
+    .product-features span {
+        font-size: 11px;
+    }
+
+    .product-features span::before {
+        width: 7px;
+        height: 7px;
+        margin-right: 6px;
+    }
+
+    .learn-more {
+        min-height: 42px;
+        font-size: 12px;
+    }
+
+    .products-bottom {
+        margin-top: 40px;
+    }
+
+    .more-section {
+        min-height: 42px;
+    }
+
+    .project-inquiry {
+        min-height: 170px;
+    }
+
+    .project-inquiry a {
+        font-size: 16px;
+        overflow-wrap: anywhere;
+    }
+
+    .thankyou {
+        min-height: 350px;
+        padding: 25px 14px;
+    }
+
+    .thankyou-card {
+        min-height: 275px;
+        padding: 50px 12px 18px;
+        border-radius: 13px;
+    }
+
+    .thankyou-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 12px;
+    }
+
+    .thankyou-card h2 {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-bottom: 17px;
+    }
+
+    .thankyou-subtitle {
+        font-size: 10px;
+    }
+
+    .thankyou-link {
+        font-size: 10px;
+    }
+
+    .thankyou-email {
+        font-size: 9px;
+        margin-top: 30px;
+    }
+
+    .footer {
+        padding: 18px 0;
+    }
+
+    .footer p,
+    .footer a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .header-container {
+        gap: 6px;
+    }
+
+    .logo {
+        font-size: 13px;
+    }
+
+    .header-buttons {
+        gap: 7px;
+    }
+
+    .signin {
+        font-size: 9px;
+    }
+
+    .signup {
+        min-width: 49px;
+        height: 28px;
+        font-size: 8px;
+    }
+
+    .menu-btn {
+        padding: 6px;
+        font-size: 9px;
+    }
+
+    .hero-container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .hero-content h1 {
+        font-size: 23px;
+    }
+
+    .hero-content > p:not(.form-message) {
+        font-size: 13px;
+    }
+
+    .hero-image {
+        height: 190px;
+    }
+
+    .dashboard {
+        transform: translateX(-50%) scale(0.58);
+    }
+
+    .partners-container {
+        gap: 8px;
+    }
+
+    .partner-card {
+        height: 55px;
+        padding: 6px;
+    }
+
+    .products-heading h2 {
+        font-size: 19px;
+    }
+
+    .product-card h3 {
+        font-size: 16px;
+    }
+
+    .product-features {
+        gap: 9px;
+    }
+
+    .product-features span {
+        font-size: 10px;
+    }
+
+    .thankyou {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .thankyou-card {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .thankyou-card h2 {
+        font-size: 12px;
+    }
+
+    .thankyou-email {
+        font-size: 8px;
+    }
+
+    .project-inquiry a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 300px) {
+    .logo {
+        font-size: 11px;
+    }
+
+    .header-buttons {
+        gap: 5px;
+    }
+
+    .signin {
+        font-size: 8px;
+    }
+
+    .signup {
+        min-width: 43px;
+        font-size: 7px;
+    }
+
+    .menu-btn {
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    .hero-content h1 {
+        font-size: 21px;
+    }
+
+    .email-input input {
+        font-size: 10px;
+        padding: 0 8px;
+    }
+
+    .email-form button {
+        font-size: 10px;
+    }
+
+    .partners-container {
+        grid-template-columns: 1fr;
+    }
+
+    .partner-card {
+        height: 60px;
+    }
+
+    .product-features {
+        flex-direction: column;
+    }
+
+    .thankyou-card h2 br {
+        display: none;
+    }
+
+    .thankyou-link {
+        font-size: 9px;
+    }
+}
